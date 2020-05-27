@@ -1,0 +1,15 @@
+{
+  "name": "project",
+  "version": "0.0.1",
+  "private": true,
+  "description": "descr",
+  "scripts": {
+    "start": "gulp bundle && gulp browserSync"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.x",
+    "gulp": "^4.0.2",
+    "rollup-stream": "^1.24.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
