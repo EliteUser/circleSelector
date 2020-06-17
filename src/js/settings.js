@@ -1,31 +1,26 @@
-const SETTINGS = {
-  halfCircle: true,
-  sizeable: false
-};
-
 const DEFAULT_SETTINGS = {
-  circleDiameter: 400,
-  halfCircle: true,
+  fullCircle: false,
 
-  counterStart: 0,
-  counterEnd: 15,
+  counterStart: 1,
+  counterEnd: 10,
   counterStep: 1,
   counterValues: [],
 
-  elementWidth: 50,
-  elementHeight: 40,
-  elementGap: 20,
+  sectorWidth: 20,
 
   rotationStep: 12,
-  edgeAngle: 30,
-  gapAngle: 20,
+  edgeAngle: 36,
+  gapAngle: 36,
 
-  sizeable: true,
-  minElementSize: 0.8,
-  maxElementSize: 1.2,
-  transitionDuration: 0.3,
+  transitionDuration: 300,
+
+  progressBar: true,
+  progressBarWidth: 16,
+  progressColor: '#dde3f0',
+  circleColor: '#131313',
+  circleBorderColor: '#dde3f0',
+  valueBackgroundColor: 'transparent',
+  valueColor: '#dde3f0',
 };
 
-const settings = Object.assign({}, DEFAULT_SETTINGS, SETTINGS);
-
-export default settings;
+export default DEFAULT_SETTINGS;

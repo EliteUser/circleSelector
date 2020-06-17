@@ -1,15 +1,16 @@
 {
-  "name": "project",
-  "version": "0.0.1",
   "private": true,
-  "description": "descr",
   "scripts": {
-    "start": "gulp bundle && gulp browserSync"
+    "start": "gulp bundle && gulp sync",
+    "github": "gulp publish"
   },
   "devDependencies": {
     "browser-sync": "^2.24.x",
+    "del": "^5.1.0",
+    "gh-pages": "^3.0.0",
     "gulp": "^4.0.2",
-    "rollup-stream": "^1.24.1",
-    "vinyl-source-stream": "^2.0.0"
+    "gulp-better-rollup": "^4.0.1",
+    "rollup": "^2.16.1",
+    "rollup-plugin-terser": "^6.1.0"
   }
 }
